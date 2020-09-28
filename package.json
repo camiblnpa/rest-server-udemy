@@ -1,0 +1,23 @@
+{
+  "name": "04-restserver",
+  "version": "1.0.0",
+  "description": "Definicion de alcances del rest server. Realizacion de un CRUD, encriptacion de contraseñas validaciones personalizadas y despliegue de la base de datos en la nube",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server/server",
+    "start": "node server/serer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "colors": "^1.4.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "mongoose-unique-validator": "^2.0.3",
+    "underscore": "^1.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
