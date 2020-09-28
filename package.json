@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon server/server",
-    "start": "node server/serer.js"
+    "start": "node server/server.js"
   },
   "author": "",
   "license": "ISC",
